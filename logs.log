@@ -296,3 +296,115 @@ Or install the extras bundle: `pip install pycaret[models]`.
 2026-10-14 21:56:40,986:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
   warnings.warn(
 
+2026-10-15 10:06:55,708:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Install it with: `pip install xgboost`.
+Or install the extras bundle: `pip install pycaret[models]`.
+2026-10-15 10:06:55,709:INFO:Soft dependency imported: lightgbm: 4.7.0
+2026-10-15 10:06:55,859:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Install it with: `pip install catboost`.
+Or install the extras bundle: `pip install pycaret[models]`.
+2026-10-15 10:06:57,943:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:57,969:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:57,990:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,014:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,043:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,070:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,093:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,117:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,144:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:06:58,173:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\deprecation.py:71: FutureWarning: Class PassiveAggressiveRegressor is deprecated; this is deprecated in version 1.8 and will be removed in 1.10. Use `SGDRegressor(loss='epsilon_insensitive', penalty=None, learning_rate='pa1', eta0 = 1.0)` instead.
+  warnings.warn(msg, category=FutureWarning)
+
+2026-10-15 10:07:19,874:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,034:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,241:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,319:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,473:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,549:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:07:20,629:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-10-15 10:08:37,889:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+
+2026-10-15 10:08:55,358:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Install it with: `pip install xgboost`.
+Or install the extras bundle: `pip install pycaret[models]`.
+2026-10-15 10:08:55,359:INFO:Soft dependency imported: lightgbm: 4.7.0
+2026-10-15 10:08:55,360:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Install it with: `pip install catboost`.
+Or install the extras bundle: `pip install pycaret[models]`.
+2026-10-15 10:09:09,678:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+
+2026-10-15 10:12:26,416:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+
+2026-10-15 10:12:43,120:WARNING:c:\Users\hap\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+

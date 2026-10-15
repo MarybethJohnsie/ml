@@ -27,7 +27,7 @@ def predict():
     data_unseen['bmi'] = pd.to_numeric(data_unseen['bmi'])
     data_unseen['children'] = pd.to_numeric(data_unseen['children'])
 
-    # Предсказание через sklearn (без PyCaret)
+    
     prediction = model.predict(data_unseen)
     prediction = int(round(float(prediction[0])))
 
@@ -36,8 +36,15 @@ def predict():
 
 @app.route('/predict_api', methods=['POST'])
 def predict_api():
-    data = request.get_json(force=True)
-    data_unseen = pd.DataFrame([data])[cols]
+    # Собираем значения из формы
+    int_features = [x for x in request.form.values()]
+    # DataFrame с правильными именами колонок
+    data_unseen = pd.DataFrame([int_features], columns=cols)
+    
+    # Приводим числовые колонки к числам
+    data_unseen['age'] = pd.to_numeric(data_unseen['age'])
+    data_unseen['bmi'] = pd.to_numeric(data_unseen['bmi'])
+    data_unseen['children'] = pd.to_numeric(data_unseen['children'])
 
     prediction = model.predict(data_unseen)
     output = float(prediction[0])
